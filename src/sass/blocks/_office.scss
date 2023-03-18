@@ -1,0 +1,36 @@
+.office {
+    padding-top: 174px;
+    min-height: 504px;
+    background: url("../img/office/office.jpg") center (center/cover) no-repeat;
+    &__wrapper {
+        text-align: center;
+    }
+    &__title {
+        font-size: 66px;
+        line-height: 1.06;
+        color: #FFFFFF;
+        &:not(:last-child) {
+            margin-bottom: 14px;
+        }
+    }
+    &__subtitle {
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+    &__link {
+        font-size: 13px;
+        line-height: 1.15;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &:hover {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+    }
+}

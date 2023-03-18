@@ -1,0 +1,81 @@
+.footer {
+    padding-top: 40px;
+    &__wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 160px;
+    }
+    &__up {
+        flex: 1 0 82px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 82px;
+        background: #000000;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &:hover {
+            color: #FFFFFF;
+        }
+    }
+
+    &-main {
+        flex: 0 1 100%;
+        display: flex;
+        gap: 34px;
+        transform: translateY(80px);
+        &__content {
+            flex: 0 1 20%;
+        }
+        &__item {
+            &:not(:last-child) {
+                margin-bottom: 16px;
+            }
+        }
+        &__link {
+            font-size: 22px;
+            line-height: 1;
+            color: #000000;
+            &:hover {
+                text-decoration: underline;
+                color: #000000;
+            }
+            
+        }
+        &__newsleter {
+            flex: 0 1 80%;
+        }
+        &__signup {
+            font-size: 22px;
+            line-height: 1;
+            color: #000000;
+            &:not(:last-child) {
+                margin-bottom: 23px;
+            }
+        }
+        &__text {
+            max-width: 348px;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.8px;
+            color: #A0A0A0;
+        }
+    }
+    &-body {
+        padding-bottom: 20px;
+        display: flex;
+        column-gap: 37px;
+        row-gap: 10px;
+        justify-content: flex-end;
+        &__item {
+            font-size: 13px;
+            line-height: 1.15;
+            letter-spacing: 0.8px;
+            color: #707A7F;
+        }
+    }
+    
+}

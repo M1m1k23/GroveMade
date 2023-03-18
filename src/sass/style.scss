@@ -1,0 +1,60 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    &:focus {
+        outline: none;
+    }
+ }
+
+.container {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/desing';
+@import 'blocks/featured';
+@import 'blocks/office';
+@import 'blocks/made';
+@import 'blocks/make';
+@import 'blocks/inspires';
+@import 'blocks/footer';
+
+@import 'blocks/media';

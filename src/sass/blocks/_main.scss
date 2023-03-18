@@ -1,0 +1,40 @@
+.main {
+    position: relative;
+    background: url('../img/main.jpg') 0 0 / cover no-repeat;
+    margin-top: 75px;
+    min-height: 504px;
+    margin-bottom: 40px;
+    &__wrapper {
+        padding-top: 188px;
+        text-align: center;
+        
+    }
+    &__title {
+        font-size: 43px;
+        line-height: 1;
+        color: #FFFFFF;
+        &:not(:last-child) {
+            margin-bottom: 12px;
+        }
+    }
+    &__subtitle {
+        font-size: 15px;
+        line-height: 1.2;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        &:not(:last-child) {
+            margin-bottom: 28px;
+        }
+    }
+    &__link {
+        font-size: 13px;
+        line-height: 1.15;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &:hover {
+            text-decoration: underline;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 75px;
+    background-color: #FFFFFF;
+    z-index: 60;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        align-items: center;
+        min-height: 75px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    &-menu {
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 25px;
+            row-gap: 3px;
+        }
+        &__link {
+            font-size: 13px;
+            line-height: 1.15;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+            color: #000000;
+            &:hover {
+                color: #000000;
+                text-decoration: underline;
+            }
+        }
+    }
+    &__logo {
+        position: relative;
+        z-index: 2;
+    }
+    &__cart {
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #000000;
+        &:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+    }
+
+}
